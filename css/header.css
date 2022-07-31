@@ -18,3 +18,10 @@ header{
     font-weight: 700;
     color: black;
 }
+
+.circulo{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: black;
+}
