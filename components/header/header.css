@@ -2,9 +2,68 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-nav{
-    background-color: lightblue;
+
+.header_div{
     width: 100%;
-    height: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_row{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 0.1px solid silver;
+}
+
+.logo_row div{
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_row .contact{
+    align-items: flex-start;
+}
+.logo_row .cart{
+    align-items: flex-end;
+}
+
+
+
+.nav_row{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.nav_row a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav_row div{
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_row div:hover{
+    background-color: silver;
+}
+
+.nav_row a:hover{
+    
 }
