@@ -16,7 +16,7 @@ body{
 }
 .foo{
     width: 100%;
-    height: 80%;
+    height: 60%;
     display: flex;
     background-color: bisque;
     justify-content: space-evenly;
@@ -24,7 +24,7 @@ body{
 }
 .f1,.f2,.f3,.f4{
     width: 20%;
-    height: 120px;
+    height: 90%;
 }
 .f1{
     background-color: green;
@@ -44,6 +44,9 @@ body{
     height: 20%;
     display: flex;
     align-items: center;
-    font-style: italic;
     justify-content: center;
+    flex-direction: column;
+}
+html{
+    height: 100%;
 }
