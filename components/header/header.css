@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.header_div img{
+    height: 50%;
+}
+
 .logo_row{
     width: 90%;
     height: 70%;
