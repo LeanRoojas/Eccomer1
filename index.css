@@ -13,5 +13,6 @@ header{
 }
 
 footer{
-    height: 400px;
-}
+    height: 80vh;
+    background-color: blueviolet;
+} 
