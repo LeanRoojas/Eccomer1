@@ -5,6 +5,27 @@
     font-family: sans-serif;
 }
 
+
+.call_now{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.cart_items{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-end;
+    padding-right: .5rem;
+}
+
+.call_now span{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.phone_number{
+    letter-spacing: 1px;
+}
+
 .header_div{
     width: 100%;
     height: 200px;
@@ -17,14 +38,19 @@
     height: 50%;
 }
 
+.svg_phone{
+    height: 15px!important;
+    width: 15px!important;
+}
+
+
 .logo_row{
     width: 90%;
     height: 70%;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border-bottom: 0.1px solid silver;
-}
+    border-bottom: 0.1px solid rgba(1,1,1,.1);}
 
 .logo_row div{
     width: 276px;
@@ -50,22 +76,34 @@
     padding: 0 15%;
 }
 
-.nav_row a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+.arrow{
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 15px;
+    transition: fill 0.5s ease;
 }
+
 
 .nav_row div{
     height: 50px;
     padding: 0 15px;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
 }
 
 .nav_row div:hover{
-    background-color: silver;
+    background-color: RGBA(0,0,0,0.05);
+    color: rgb(0,146,136);
+    fill: rgb(0,146,136);
+}
+.selected{
+    background-color: RGBA(0,0,0,0.05);
+    color: rgb(0,146,136) !important;
 }
 
 .nav_row a:hover{

@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 <body>
     <div class="header_div">
         <div class="logo_row">
             <div class="contact">
-                <svg> </svg>
-                <span>CALL NOW</span>
-                <h4>123456789</h4>
+                <div class="call_now">
+                    <img class="svg_phone" src="./assets/phone.svg" alt="phone.svg">
+                    <span>CALL NOW</span>
+                </div>
+                <h4 class="phone_number">123456789</h4>
             </div>
 
             <img src="./assets/head-logo-srasnakcs.png" alt="snacks-logo">
 
            <div class="cart">
-             <h1>H</h1>
+            <div class="cart_items">
+                <img class="svg_phone" src="./assets/bag.svg" alt="bag.svg">
+                <span>0</span>
+            </div>
+            <h4 class="phone_number">$0.00</h4>
            </div>
         </div>
 
         <div class="nav_row">
-            <div><a href="#">home</a></div>
-            <div><a href="#">store</a></div>
-            <div><a href="#">ous story</a></div>
-            <div><a href="#">where to buy</a></div>
-            <div><a href="#">recipes</a></div>
-            <div><a href="#">news</a></div>
-            <div><a href="#">contact</a></div>
+            <div>home</div>
+            <div>store</div>
+            <div>ous story</div>
+            <div>
+                where to buy
+                <i class="arrow fa-solid fa-sort-down"></i>
+            </div>
+            <div>recipes</div>
+            <div>news</div>
+            <div>contact</div>
         </div>
     </div>
 </body>
