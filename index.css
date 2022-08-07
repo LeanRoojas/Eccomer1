@@ -6,8 +6,7 @@
 custom-header{
     position: fixed;
     width: 100%;
-    -webkit-box-shadow: 1px 2px 5px 0px #C4C4C4; 
-box-shadow: 1px 2px 5px 0px #C4C4C4;
+    
 }
 
 main{
