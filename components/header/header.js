@@ -105,6 +105,8 @@ class customHeader extends HTMLElement{
             justify-content: center;
             align-items: center;
             padding: 0 15%;
+            -webkit-box-shadow: 1px 2px 5px 0px #C4C4C4; 
+            box-shadow: 1px 2px 5px 0px #C4C4C4;
         }
         
         .arrow{
@@ -117,7 +119,7 @@ class customHeader extends HTMLElement{
         
         .nav_row div{
             font-size: 14px;
-            height: 50px;
+            height: 45px;
             padding: 0 25px;
             display: flex;
             align-items: center;
@@ -127,6 +129,7 @@ class customHeader extends HTMLElement{
             font-weight: 600;
             transition: background-color 0.5s ease;
             margin-top: 15px;
+            margin-bottom: 15px
         }
         
         .nav_row div:hover{
