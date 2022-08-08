@@ -10,3 +10,173 @@ main{
     height: 200vh;
     width: 100%;
 }
+
+.contact_title{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../contact/assets/images.jfif);
+    background-size: cover;
+    
+}
+.contact_title h1{
+    font-size: 80px;
+    color: white;
+}
+.contact_title h2{
+    color: white;
+}
+.contact_form{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    height: 800px;
+    width: 65%;
+    background-color: blueviolet;
+}
+.gitouch{
+    height: 800px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    font-size: 22px;
+}
+.gitouch h2{
+    color:white;
+    font-size: 30px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.gitouch p{
+    margin-bottom: 10px;
+    color: white;
+}
+.gitouch span{
+    color: white;
+}
+.gitouch span:hover{
+    cursor: pointer;
+    color: gray;
+}
+.phone{
+    height: 42px;
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.number pre{
+    font-size: smaller;
+    color:white;
+}
+.email{
+    width: 90%;
+    display: inline-flex;
+    align-items: center;
+    margin-left:47px;
+    margin-bottom: 20px;
+}
+.email pre{
+    font-size: smaller;
+    color:white;
+}
+.mail{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 65px;
+    margin-bottom: 20px;
+}
+.mail pre{
+    font-size: smaller;
+    color: white;
+}
+
+.social_media i:hover{
+    cursor:pointer;
+    color: gray;
+    transform: scale(1.1);
+}
+.social_media{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 130px;
+}
+.social_media i{
+    color: white;
+}
+.learning{
+    width: 80%;
+}
+.learning h2{
+    margin-left: 100px;
+}
+.link1 a{
+    text-decoration: none;
+}
+.link2 a{
+    text-decoration: none;
+}
+.link1:hover{
+    cursor: pointer;
+    color: gray;
+    background-color: aqua;
+}
+.link2:hover{
+    cursor: pointer;
+    color: gray;
+    background-color: aqua;
+}
+.link1{
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.link1 span{
+    color:skyblue;
+    font-size: smaller;
+}
+.link2{
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link2 span{
+    color:skyblue;
+    font-size: smaller;
+}
+
+.fa-phone{
+    color:white;
+    font-size:small;
+    margin-right: 10px;
+}
+.fa-envelope{
+    color:white;
+    font-size: small;
+    margin-right: 10px;
+}
+.fa-paper-plane{
+    color:white;
+    font-size: small;
+    margin-right: 10px;
+}
+
