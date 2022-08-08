@@ -6,13 +6,17 @@
 custom-header{
     position: fixed;
     width: 100%;
-    
+    background-color: white;
+    z-index: 999;
 }
 
 main{
-    height: 200vh;
+    height: fit-content;
     width: 100%;
+    background-color: antiquewhite;
+    padding-top: 200px;
 }
+
 
 .iHeader{
     width: 100%;
@@ -22,3 +26,216 @@ main{
 footer{
     height: 50vh;
 } 
+
+
+.barnding_container{
+    height: 700px;
+    background-image: url('./assets/PolicyToolkit-SocialGraphics-MT-04_Facebook1-1.png');
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.white_exclamation{
+    width: 700px;
+    height: 550px;
+    margin-top: -300px;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 350px);
+}
+.granola_img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: -200px;
+    left: calc(50% - 250px);
+}
+.branding_text{
+    position: absolute;
+    bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.branding_text h1{
+    font-size: 97px;
+    font-weight: 600;
+}
+
+
+.branding_text h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.branding_text h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.shop_now{
+    color: white;
+    background-color: #4E3629;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 40px;
+    font-size: 12px;
+    transition: background-color 0.5s ease;
+}
+.shop_now:hover{
+    background-color: #814029;
+}
+
+.product_section{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.vertical_banner{
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    background-color: aliceblue;
+    left: 5%;
+    top:8%;
+    background-image: url("https://sarahssnacks.com/wp-content/uploads/2019/12/iStock-1088608090.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: 111;
+}
+.vertical_banner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: RGBA(0,0,0,0.4);
+    display: block;
+}
+.vertical_banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: none;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    border: #4E3629 solid 3px;
+    z-index: -1;
+}
+
+.main_banner{
+    right: 12%;
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    color: #814029;
+}
+
+.main_banner h1{
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 32px;
+}
+.main_banner span{
+    line-height: 10px;
+    font-weight: 900;
+    font-size: 32px;
+}
+.main_banner p{
+    font-size: 100;
+    margin-top: 1rem;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.main_banner i{
+    margin-top: 25px;
+    font-size: 64px;
+    margin-right: 10px;
+}
+.logos{
+    display: flex;
+    position: relative;
+    bottom: -24px;
+}
+.logo{
+    position: relative;
+    width: 64px;
+    margin-right: 15px;
+}
+
+.logo p{
+    text-align: center;
+    line-height: 15px;
+    color: #814029;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.trigo, .galleta, .hoja{
+    font-size: 36px!important;
+    position: absolute;
+    right: 4px;
+    top: 13px;
+}
+
+.order_today{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - (270px/2));
+    color: white;
+}
+.h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+.h2{
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.chocolate{
+    width: 100%;
+    height: 350px;
+    margin-top: -80px;
+}
+
+.carousel_section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+}
+
+.carousel{
+    background-color: #333333;
+    width: 60%;
+    height: 350px;
+}
+.try_one{
+    background-color: aliceblue;
+    height: 350px;
+    width: 25%;
+}
+
+.granola_side{
+    margin-right: -80px;
+}
