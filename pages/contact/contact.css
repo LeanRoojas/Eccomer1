@@ -7,7 +7,7 @@ footer{
 }
 
 main{
-    height: 200vh;
+    height: 250vh;
     width: 100%;
 }
 
@@ -178,5 +178,61 @@ main{
     color:white;
     font-size: small;
     margin-right: 10px;
+}
+.bot{
+    height:540px;
+    width:100%;
+}
+.container{
+    height: 490px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.message{
+    height:100px;
+    width:60%;
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.message h2{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(199, 157, 103);
+}
+.message span{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(199, 157, 103);
+}
+.button{
+    height: 42px;
+    width: 160px;
+    background-color: skyblue;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.button span{
+    color: white;
+    font-weight: 700;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(164, 218, 240);
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.form_name h2{
+    margin-left: 80px;
+    font-size: 40px;
+}
+.form_name h3{
+    margin-left: 80px;
+    margin-bottom: 5px;
 }
 
