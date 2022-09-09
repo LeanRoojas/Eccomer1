@@ -226,16 +226,64 @@ footer{
 }
 
 .carousel{
-    background-color: #333333;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     width: 60%;
-    height: 350px;
+    height: 300px;
+    margin-left: 1rem;
 }
+.carousel_item{
+    width: 20%;
+    height: 100%;
+    background-color: #28B4AA;
+}
+
 .try_one{
-    background-color: aliceblue;
-    height: 350px;
+
+    height: 300px;
     width: 25%;
 }
 
 .granola_side{
     margin-right: -80px;
+}
+.try_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.try_one h1{
+    font-size: 32px;
+    color: #009288;
+    font-weight: 100;
+}
+.try_one span{
+    font-size: 32px;
+    color: #009288;
+    font-weight: 900;
+}
+
+.try_one p{
+    color: #3b3b3b;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.try_one a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #009288;
+    width: max-content;
+    padding: 15px 30px;
+    transition: background-color 0.5s ease;
+}
+
+.try_one a:hover{
+    background-color: #28B4AA;
 }
