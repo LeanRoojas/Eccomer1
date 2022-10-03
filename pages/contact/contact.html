@@ -22,29 +22,60 @@
         <div class="contact_form">
             <div class="form">
                 <div class="form_name">
-                    <h2>CONTACT US</h2>
-                      <form>
+                    <h2 style="font-size:40px; font-weight:bold;">CONTACT US</h2>
+                      <form class="name">
                         <h3>Name</h3>
-                        <div class="full_name">
-                            <label style="display: flex; flex-direction:row; width:100px; margin-left: 80px;" for="nombre">
-                                <input id="nombre" type="text">
-                                &nbsp&nbsp&nbsp&nbsp
-                                <input id="apellido" type="text">
-                             </label>
-                             <h4 style="margin-left:80px; font-size: small;">First&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLast</h4>
+                        <div class="part_name">
+                            <div class="first_name">
+                                <br>
+                                <input class="padding_box" type="text" style="width: 305px ;" name="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Solo son válidas letras y espacios en blanco" required>
+                                <br>
+                                <label>First</label>
+                            </div>
+                            <div class="last_name">
+                                <br>
+                                <input class="padding_box" type="text" style="width: 305px ;" name="apellido" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Solo son válidas letras y espacios en blanco" required>
+                                <br>
+                                <label>Last</label>
+                            </div>
                         </div>
+                        <h3 style="margin-top: 40px ;">Email</h3>
+                        <br>
+                        <div class="part_email">
+                            <div class="form_email">
+                                <input class="padding_box" type="email" style="width: 650px ;" name="correo" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" title="Formato de correo inválido" required>
+                            </div>
+                        </div>
+
+                        <h3 style="margin-top: 40px ;">What are you contacting us about?</h3>
+                        <div class="question">
+                            <br>
+                            <div class="why">
+                                <select class="padding_box" name="reason" id="" style="width: 650px;">
+                                    <option value="wholesale">Wholesale</option>
+                                    <option value="private/copack">Private Label/Copack</option>
+                                    <option value="website/questions">Website/Order Questions</option>
+                                </select>
+                            </div>
+                        </div>
+                        <h3 style="margin-top: 40px ;">Message</h3>
+                        <div class="Message">
+                            <br>
+                            <div class="area">
+                                <textarea class="text_area" name="" id="" cols="90" rows="10" required></textarea>
+                            </div>
+                        </div>
+                        <div class="send">
+                            <input class="send_submit" value="SEND MESSAGE" type="submit">
+                        </div>
+                        
+                        
+                        
                       </form>
                 </div>
                 <br>
                 <div class="form_email">
-                    <form>
-                        <h3>Email</h3>
-                        <div class="f_email">
-                            <label for="correo_electronico">
-                                <input id="correo_electronico" type="text">
-                            </label>
-                        </div>
-                    </form>
+                    
                 </div>
             </div>
             

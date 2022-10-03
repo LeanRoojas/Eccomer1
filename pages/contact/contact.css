@@ -38,7 +38,6 @@ main{
 .form{
     height: 800px;
     width: 65%;
-    background-color: blueviolet;
 }
 .gitouch{
     height: 800px;
@@ -199,12 +198,12 @@ main{
 .message h2{
     font-size: 40px;
     font-weight: 100;
-    color: rgb(199, 157, 103);
+    color: saddlebrown;
 }
 .message span{
     font-size: 40px;
     font-weight: 700;
-    color: rgb(199, 157, 103);
+    color: saddlebrown;
 }
 .button{
     height: 42px;
@@ -227,12 +226,58 @@ main{
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;
 }
+
 .form_name h2{
-    margin-left: 80px;
-    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
-.form_name h3{
-    margin-left: 80px;
-    margin-bottom: 5px;
+.name h3{
+    margin-left: 40px;
 }
+.part_name{
+    display: flex;
+}
+.first_name {
+    margin-left: 40px;
+}
+.last_name {
+    margin-left: 40px;
+}
+.form_email {
+    margin-left: 40px;
+}
+.why {
+    margin-left: 40px;
+}
+.area {
+    margin-left: 40px;
+}
+
+.send{
+    margin-left: 40px;
+}
+.padding_box{
+    padding: 12px;
+    background-color: whitesmoke;
+}
+.text_area{
+    background-color: whitesmoke;
+}
+.send_submit{
+    padding: 10px;
+    background-color:skyblue;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    margin-top: 20px;
+}
+.send_submit:hover{
+    cursor: pointer;
+    background-color: rgb(164, 218, 240);
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
 
